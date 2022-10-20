@@ -22,7 +22,7 @@
 }
 
 .name {
-	color: #8e55b4;
+	color: #c37df1;
 	font-family: "Silkscreen", sans-serif;
 	font-size: 30px;
 	width: 300px;
@@ -39,9 +39,9 @@
 }
 
 @keyframes text {
-	50% {
+	70% {
 		background: skyblue;
-		box-shadow: 0 -20px 10px -10px #8AA9D6 inset;
+		box-shadow: 1px -20px 10px -10px #8AA9D6 inset;
 	}
 
 }
@@ -58,6 +58,8 @@ header .gif {
 	font-family: "Silkscreen";
 	font-size: 25px;
 	padding: 10px;
+	text-decoration: none;
+	color: rgb(34, 216, 216);
 }
 	
 .logo {
@@ -73,12 +75,13 @@ header .gif {
 	align-content: space-around;
 	padding-top: 10px;
 	text-decoration: none;
+	color: rgb(34, 216, 216);
 }
 
 p {
 	font-family: "PressStart2P";
-	font-size: 20px;
-	line-height: 40px;
+	font-size: 18px;
+	line-height: 20px;
 }
 .text {
 	display: flex;
@@ -86,6 +89,19 @@ p {
 	align-items: center;
 	flex-direction: column;
 	color: azure;
-	margin-top: 100px;
+	margin-top:20px;
+	margin-left: 40px;
+	color: #00ddfa;
 
+}
+
+#color-links {
+	color: #3f2679;
+	text-decoration: none;
+}
+button {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 }

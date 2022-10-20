@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>And_One</title>
 	<link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
@@ -17,20 +18,33 @@
 					<div class="name">And_One</div>
 				</div>
 				<div class="navigation">
-					<div class="links"><a href="https://github.com/1AndOne1" target="_blank">My GitHub</a></div>
-					<div class="links"><a href="#!">My projects</a></div>
+					<div class="links"><a href="https://github.com/1AndOne1" id="color-links" target="_blank">My
+							GitHub</a></div>
+					<div class="links"><a href="#!" id="color-links">My projects</a></div>
 				</div>
 				<div class="main">
-					<div class="text">
-						<p>AAAAAAAAAA</p><br>					
-						<p>AAAAAAA</p><br>				
-						<p>AAAAAAA</p><br>					
-						<p>AAAAAAA</p><br>
-						<p>AAAAAAA</p><br>
-						<p>AAAAAAA</p><br>
+					<div id="hide">
+						<div class="text">
+							<p>Kon ni chi na!</p><br>
+							<p>Меня зовут Ваня, я обучаюсь верстке уже полтора месяца</p><br>
+							<p>Я не знаю, что мне писать, поэтому напишу цитаты из аниме</p><br>
+							<p>Возлагая на что-либо надежду, ты обязательно будешь разочарован. Обещания останутся
+								просто
+								словами и вера будет утрачена. Мицуру — «Милый во Франкcе»</p><br>
+							<p>Опыт приходит через страдания.«Темный Дворецкий»</p><br>
+						</div>
 					</div>
 				</div>
-			</div>
+				<script>
+					function chpok(id = "click") {
+						elem = document.getElementById(id = "hide");
+						state = elem.style.display;
+						if (state == '') elem.style.display = 'none';
+						else elem.style.display = '';
+					}
+				</script>
+				<button onclick="chpok('text')"></button>
+				<div class="click">
 		</header>
 	</div>
 </body>
