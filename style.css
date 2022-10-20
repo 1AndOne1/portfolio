@@ -2,10 +2,70 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "Silkscreen";
+	src: url(./fonts/Silkscreen-Regular.ttf);
+	src: url(./fonts/Silkscreen-Bold.ttf);
+	font-weight: normal;
+	display: wrap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "PressStart2P";
+	src: url(./fonts/PressStart2P-Regular.ttf);
+	font-weight: normal;
+	display: wrap;
+	font-style: normal;
+}
+
+body .name {
+	font-family: "Silkscreen", sans-serif;
+	position: absolute;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: none;
+	margin: 20px auto;
+	width: 10%;
+	max-width: 80%;
+	height: 45px;
+	background: #0B2349;
+	box-shadow: 0 -2px 1px -1px #0D61BC inset;
+	border-radius: 10px;
+	animation: background 2s infinite alternate-reverse;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #EEE;
+	font-size: 30px;
+}
+
+@keyframes background {
+	20% {
+		background: skyblue;
+		box-shadow: 0 -20px 10px -10px #8AA9D6 inset;
+	}
 
 }
-header .gif {
-	min-height: 100vh;
-	background-image: url(/img/gif/backgr.gif);
+
+
+.gif {
+	height: 100vh;
+	width: 100%;
+	background-image: url("/img/gif/backgr.gif");
 	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.links {
+	font-family: "Silkscreen";
+	font-size: 25px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	text-decoration: none;
 }
