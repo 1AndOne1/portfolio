@@ -21,31 +21,25 @@
 	font-style: normal;
 }
 
-body .name {
+.name {
+	color: #8e55b4;
 	font-family: "Silkscreen", sans-serif;
-	position: absolute;
-	font-size: 40px;
-	text-align: center;
-	text-decoration: none;
-	margin: 20px auto;
-	width: 10%;
-	max-width: 80%;
-	height: 45px;
+	font-size: 30px;
+	width: 300px;
+	height: 60px;
 	background: #0B2349;
-	box-shadow: 0 -2px 1px -1px #0D61BC inset;
+	box-shadow: 1px -10px 5px -10px #0D61BC inset;
 	border-radius: 10px;
-	animation: background 2s infinite alternate-reverse;
-	margin: 0;
-	padding: 0;
+	animation: text 2s infinite alternate-reverse;
+	background: #FFFFFF;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #EEE;
-	font-size: 30px;
+
 }
 
-@keyframes background {
-	20% {
+@keyframes text {
+	50% {
 		background: skyblue;
 		box-shadow: 0 -20px 10px -10px #8AA9D6 inset;
 	}
@@ -63,8 +57,35 @@ header .gif {
 .links {
 	font-family: "Silkscreen";
 	font-size: 25px;
+	padding: 10px;
+}
+	
+.logo {
 	display: flex;
-	flex-direction: column;
-	text-align: center;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10px;
+}
+.navigation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+	padding-top: 10px;
 	text-decoration: none;
+}
+
+p {
+	font-family: "PressStart2P";
+	font-size: 20px;
+	line-height: 40px;
+}
+.text {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: column;
+	color: azure;
+	margin-top: 100px;
+
 }
