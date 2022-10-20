@@ -52,11 +52,10 @@ body .name {
 
 }
 
-
-.gif {
+header .gif {
 	height: 100vh;
 	width: 100%;
-	background-image: url("/img/gif/backgr.gif");
+	background-image: url("./img/gif/backgr.gif");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
