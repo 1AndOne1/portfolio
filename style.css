@@ -60,6 +60,15 @@ header .gif {
 	padding: 10px;
 	text-decoration: none;
 	color: rgb(34, 216, 216);
+	background: #0B2349;
+	box-shadow: 1px -10px 5px -10px #0D61BC inset;
+	border-radius: 10px;
+	animation: text 2s infinite alternate-reverse;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
 }
 
 .logo {
