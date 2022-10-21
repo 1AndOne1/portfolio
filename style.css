@@ -61,13 +61,14 @@ header .gif {
 	text-decoration: none;
 	color: rgb(34, 216, 216);
 }
-	
+
 .logo {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding-top: 10px;
 }
+
 .navigation {
 	display: flex;
 	justify-content: center;
@@ -83,25 +84,34 @@ p {
 	font-size: 18px;
 	line-height: 20px;
 }
+
 .text {
 	display: flex;
-	justify-content:center;
+	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	color: azure;
-	margin-top:20px;
+	background-color: #c37df1;
+	margin-top: 20px;
 	margin-left: 40px;
-	color: #a793d6;
-
+	color: #e4ab32;
+	background: rgba(0, 0, 0, 0.7);
 }
 
 #color-links {
 	color: #3f2679;
 	text-decoration: none;
 }
+
 button {
 	position: absolute;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
+	width: 40px;
+	height: 55px;
+	margin-top: 520px;
+	margin-left: 36px;
+	opacity: 0,5%;
+}
+
+#vanya {
+	text-decoration: none;
+	color: #e4ab32;
 }
