@@ -58,7 +58,6 @@ header .gif {
 	font-family: "Silkscreen";
 	font-size: 25px;
 	padding: 10px;
-	text-decoration: none;
 	color: rgb(34, 216, 216);
 	background: #0B2349;
 	box-shadow: 1px -10px 5px -10px #0D61BC inset;
@@ -67,24 +66,19 @@ header .gif {
 	background: #FFFFFF;
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	margin-right: 10px;
 }
 
 .logo {
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	padding-top: 10px;
 }
 
 .navigation {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	align-content: space-around;
 	padding-top: 10px;
-	text-decoration: none;
 	color: rgb(34, 216, 216);
 }
 
@@ -96,22 +90,19 @@ p {
 
 .text {
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	flex-direction: column;
-	background-color: #c37df1;
 	margin-top: 20px;
-	margin-left: 15px;
-	color: #e4ab32;
-	background: rgba(0, 0, 0, 0.7);
+	color: #b24bc0;
+	background: rgba(0, 0, 0, 0.6);
+	text-align: center;
 }
 
 #color-links {
-	color: #3f2679;
+	color: #8646da;
 	text-decoration: none;
 }
 
 #vanya {
 	text-decoration: none;
-	color: #e4ab32;
+	color: #b24bc0;
 }
